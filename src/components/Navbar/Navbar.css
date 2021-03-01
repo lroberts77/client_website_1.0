@@ -6,7 +6,7 @@
     height: 100px;
     padding: 10px 100px;
     box-sizing: border-box;
-    transition: .5s;
+    transition: .5s;    
 }
 
 .logo {
@@ -34,5 +34,11 @@
     color: black;
     padding: 5px 20px;
     text-decoration: none;
+    transition: .5s;
+}
+
+.nav-ul li a:hover {
+    color: white;
+    background: chartreuse;
 }
 
