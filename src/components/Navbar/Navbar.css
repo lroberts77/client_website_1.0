@@ -17,3 +17,10 @@
     height: 80px;
     transition: .5s;
 }
+
+.nav-ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
