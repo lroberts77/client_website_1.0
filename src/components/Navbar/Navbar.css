@@ -28,3 +28,9 @@
 .nav-ul li {
     list-style: none;
 }
+
+.nav-ul li a {
+    line-height: 80px;
+    color: black;
+}
+
