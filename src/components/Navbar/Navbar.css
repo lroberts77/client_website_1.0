@@ -12,3 +12,8 @@
 .logo {
     float: left;
 }
+
+.img {
+    height: 80px;
+    transition: .5s;
+}
