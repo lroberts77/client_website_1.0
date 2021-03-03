@@ -1,6 +1,10 @@
 import React from 'react'
 import "./Navbar.css";
 import nature from "../../assets/nature.jpg"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faYoutube, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+  
+
 
 function Navbar() {
     return (
