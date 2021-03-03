@@ -4,16 +4,12 @@
     left: 0;
     width: 100%;
     height: 80px;
-    padding: 10px 80px;
+    padding: 10px 50px;
     box-sizing: border-box;
     transition: .5s;    
     background-color: aqua;
     display: flex;
     justify-content: space-between;
-}
-
-.logo {
-    float: left;
 }
 
 .img {
@@ -22,15 +18,16 @@
     border-radius: 50%;
 }
 
-.nav-ul {
+.nav-ul, .ul-links {
     margin: 0;
     padding: 0;
     display: flex;
-}
-
-.nav-ul li {
     list-style: none;
 }
+
+/* .nav-ul li {
+    list-style: none;
+} */
 
 .nav-ul li a {
     line-height: 60px;
@@ -45,7 +42,7 @@
     background: chartreuse;
 }
 
-.ul-links {
-    display: flex;
-}
+.ul-links li svg {
+    padding: 5px;   
+    transform: translateY(20%);}
 
