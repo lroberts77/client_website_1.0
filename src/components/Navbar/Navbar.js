@@ -20,7 +20,7 @@ function Navbar() {
             </ul>
             <ul className="ul-links">
                 <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><a href="" className="youtube"><FontAwesomeIcon icon={faYoutube} size="2x" /></a></li>
                 <li><a href=""></a></li>
             </ul>
         </nav>
