@@ -18,3 +18,23 @@
     background: url('../../assets/nature2.jpg') center no-repeat;
     background-position: top;
 }
+
+.about-container {
+    color: white;
+}
+
+.site-title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-top: 10%;
+}
+
+.site-about {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    width: 30%;
+    font-weight: lighter;
+}
