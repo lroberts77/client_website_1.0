@@ -1,13 +1,14 @@
 .navbar {
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 80px;
-    padding: 10px 50px;
+    padding: 10px 40px;
     box-sizing: border-box;
     transition: .5s;    
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
 }
@@ -25,16 +26,13 @@
     list-style: none;
 }
 
-/* .nav-ul li {
-    list-style: none;
-} */
-
 .nav-ul li a {
     line-height: 60px;
-    color: black;
+    color: white;
     padding: 5px 20px;
     text-decoration: none;
     transition: .5s;
+    font-size: 1.5vw;
 }
 
 .nav-ul li a:hover {
@@ -43,6 +41,8 @@
 }
 
 .ul-links li svg {
-    padding: 5px;   
-    transform: translateY(20%);}
+    padding: 5px 5px 5px 10px;   
+    transform: translateY(20%);
+    color: white;
+}
 

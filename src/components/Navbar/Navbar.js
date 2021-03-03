@@ -6,7 +6,7 @@ import { faYoutube, faFacebook, faInstagram } from "@fortawesome/free-brands-svg
   
 
 
-function Navbar() {
+const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="logo">
@@ -26,7 +26,5 @@ function Navbar() {
         </nav>
     )
 }
-{/* <i class="fab fa-instagram"></i> */}
 
 export default Navbar
-
