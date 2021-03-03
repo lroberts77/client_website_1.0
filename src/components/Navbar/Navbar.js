@@ -21,7 +21,7 @@ function Navbar() {
             <ul className="ul-links">
                 <li><a href="" className="instagram"><FontAwesomeIcon icon={faInstagram} size="2x" /></a></li>
                 <li><a href="" className="youtube"><FontAwesomeIcon icon={faYoutube} size="2x" /></a></li>
-                <li><a href="" ></a></li>
+                <li><a href="" className="facebook"><FontAwesomeIcon icon={faFacebook} size="2x" /></a></li>
             </ul>
         </nav>
     )
