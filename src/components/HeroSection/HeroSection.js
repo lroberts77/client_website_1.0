@@ -15,7 +15,15 @@ function HeroSection() {
                     </h1>
                 </div>
             </div>
-            
+            <div className="section2">
+
+            </div>
+            <div className="section3">
+                
+            </div>
+            <div className="section4">
+                
+            </div>
         </div>
     )
 }

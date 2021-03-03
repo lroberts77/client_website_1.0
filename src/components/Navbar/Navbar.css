@@ -19,6 +19,12 @@
     border-radius: 50%;
 }
 
+.owner {
+    color: white;
+    font-size: 9px;
+    font-weight: lighter;
+}
+
 .nav-ul, .ul-links {
     margin: 0;
     padding: 0;
@@ -45,4 +51,5 @@
     transform: translateY(20%);
     color: white;
 }
+
 
