@@ -18,6 +18,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="shop-link">
+                    <img className="img" src={nature} alt="logo" />
                 </div>
             </div>
             <div>
