@@ -37,6 +37,12 @@
     color: chartreuse;
 }
 
+.navbar-black .ul-links li a svg {
+    height: 25px;
+    transition: .5s;
+    padding: 10px 5px 5px 5px;  
+}
+
 .img {
     height: 60px;
     transition: .5s;
@@ -70,10 +76,11 @@
     background: chartreuse;
 }
 
-.ul-links li svg {
+.ul-links li a svg {
     padding: 5px 5px 5px 10px;   
     transform: translateY(20%);
     color: white;
+    transition: .5s;
 }
 
 
