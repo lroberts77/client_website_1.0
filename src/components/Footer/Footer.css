@@ -29,6 +29,7 @@
 }
 .footer-ul li a {
     color: white;
+    list-style: none;
 }
 
 .copyright, .copyright a {
