@@ -8,6 +8,10 @@
     padding: 10px 100px;
     margin-bottom: 10px;
     box-sizing: border-box; 
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    background-color: black;
 }
 
 .footer-container {
