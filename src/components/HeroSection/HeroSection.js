@@ -1,5 +1,6 @@
 import React from 'react'
 import './HeroSection.css';
+import Footer from '../Footer/Footer';
 // import nature2 from "../../assets/nature2.jpg"
 
 function HeroSection() {
@@ -24,6 +25,7 @@ function HeroSection() {
             <div className="section4">
                 
             </div>
+            <Footer />
         </div>
     )
 }
