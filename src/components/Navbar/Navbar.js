@@ -16,7 +16,7 @@ function Navbar() {
     const [navbar, setnavbar] = useState("navbar");
     
     const listenScrollEvent = () => {
-      console.log(window.scrollY);
+      
       if (window.scrollY < 73) {
         return setnavbar("navbar")
       } else if (window.scrollY > 70) {

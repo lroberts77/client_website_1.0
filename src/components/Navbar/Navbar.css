@@ -47,6 +47,7 @@
     height: 60px;
     transition: .5s;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .owner {
