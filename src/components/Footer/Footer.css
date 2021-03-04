@@ -31,4 +31,10 @@
     color: white;
 }
 
+.copyright, .copyright a {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+}
 
