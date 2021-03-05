@@ -11,13 +11,25 @@ function HeroSection() {
                     <h1 className="site-title">
                         Experiment Growth
                     </h1>
-                    <h1 className="site-about">
+                    <p className="site-about">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </h1>
+                    </p>
                 </div>
             </div>
             <div className="section2">
+                {/* <div className="section2-container"> */}
+                    <div className="line">
+                    </div>
+                    <div className="about">ABOUT</div>
+                    <div className="row">
+                        <div className="column">
 
+                        </div>
+                        <div className="column">
+
+                        </div>
+                    </div>
+                {/* </div> */}
             </div>
             <div className="section3">
                 
