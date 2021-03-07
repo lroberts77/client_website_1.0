@@ -1,7 +1,10 @@
 import React from 'react'
 import './HeroSection.css';
 import Footer from '../Footer/Footer';
-// import nature2 from "../../assets/nature2.jpg"
+import nature2 from "../../assets/nature2.jpg"
+import see from "../../assets/see.jpg"
+// import see from "../../assets/catalina.jpg"
+
 
 function HeroSection() {
     return (
@@ -17,22 +20,59 @@ function HeroSection() {
                 </div>
             </div>
             <div className="section2">
-                {/* <div className="section2-container"> */}
+                <div className="section2-container">
                     <div className="line">
                     </div>
                     <div className="about">ABOUT</div>
                     <div className="row">
                         <div className="column">
-
+                            <div className="pic">
+                            <img className="ppic" src={see} alt="CAT"></img>
+                            </div>
                         </div>
                         <div className="column">
-
+                            <p>
+                                Hi! I'm Catalina. After years of traveling the world non-stop, I’m now enjoying my life at a new home in Kent, while still pursuing my other passions and hobbies as well.
+                            </p>
+                            <p>
+                            I still travel a lot though! You can inspire your wanderlust by checking out my other blog - Cata Everywhere.
+                            </p>
+                            <p>
+                            It’s my mission to teach YOU how can also you turn YOUR dreams, whatever they are, into reality.
+                            </p>
+                            <p>
+                                dfgsagfkdsgfldsgfdlsagfldasghfldsgfhladsgfl
+                            </p>
+                            {/* <p>
+                                dsafgawlgfodsfghdsfgahdlsfghogfhdslgfhl
+                            </p> */}
+                            <button>More about me</button><span> </span>
+                            <button>More about me</button>
                         </div>
                     </div>
-                {/* </div> */}
+                </div>
             </div>
             <div className="section3">
-                
+                <div className="section3-container">
+                <div className="line">
+                    </div>
+                    <div className="interests">INTERESTS</div>
+                </div>
+                <div className="row-p">
+                <div className="column">
+                    <img className="pp" src={nature2} alt="CAT"></img>
+                    </div>
+                    <div className="column">
+                    <img className="pp" src={nature2} alt="CAT"></img>
+                    </div>
+                                    <div className="column">
+                    <img className="pp" src={nature2} alt="CAT"></img>
+                    </div>
+                                    <div className="column">
+                    <img className="pp" src={nature2} alt="CAT"></img>
+                    </div>
+            
+                </div>
             </div>
             <div className="section4">
                 
