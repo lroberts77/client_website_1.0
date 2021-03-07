@@ -3,7 +3,10 @@ import './HeroSection.css';
 import Footer from '../Footer/Footer';
 import nature2 from "../../assets/nature2.jpg"
 import see from "../../assets/see.jpg"
-// import see from "../../assets/catalina.jpg"
+import travel from "../../assets/travel.jpg"
+import cat from "../../assets/catalina.jpg"
+import finance from "../../assets/bank.jpg"
+import work from "../../assets/work.jpg"
 
 
 function HeroSection() {
@@ -60,16 +63,16 @@ function HeroSection() {
                 </div>
                 <div className="row-p">
                 <div className="column">
-                    <img className="pp" src={nature2} alt="CAT"></img>
+                    <img className="pp" src={cat} alt="CAT"></img>
                     </div>
                     <div className="column">
-                    <img className="pp" src={nature2} alt="CAT"></img>
+                    <img className="pp" src={travel} alt="CAT"></img>
                     </div>
                                     <div className="column">
-                    <img className="pp" src={nature2} alt="CAT"></img>
+                    <img className="pp" src={finance} alt="CAT"></img>
                     </div>
                                     <div className="column">
-                    <img className="pp" src={nature2} alt="CAT"></img>
+                    <img className="pp" src={work} alt="CAT"></img>
                     </div>
             
                 </div>
