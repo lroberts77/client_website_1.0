@@ -88,7 +88,15 @@
     border-bottom: chartreuse 5px solid;
     transition: all .3s ease;
     box-shadow: 5px 5px 10px black;
+    position: relative;
+}
 
+.img-title {
+    position: relative;
+    bottom: 40px;
+    color: white;
+    left: 20px;
+    font-weight: bolder;
 }
 
 .pp:hover {

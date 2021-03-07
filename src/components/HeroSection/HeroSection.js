@@ -64,15 +64,19 @@ function HeroSection() {
                 <div className="row-p">
                 <div className="column">
                     <img className="pp" src={cat} alt="CAT"></img>
+                    <span className="img-title">ME</span>
                     </div>
                     <div className="column">
                     <img className="pp" src={travel} alt="CAT"></img>
+                    <span className="img-title">TRAVEL</span>
                     </div>
-                                    <div className="column">
+                    <div className="column">
                     <img className="pp" src={finance} alt="CAT"></img>
+                    <span className="img-title">FINANCE</span>
                     </div>
-                                    <div className="column">
+                    <div className="column">
                     <img className="pp" src={work} alt="CAT"></img>
+                    <span className="img-title">WORK</span>
                     </div>
             
                 </div>
