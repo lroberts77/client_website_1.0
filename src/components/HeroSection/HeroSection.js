@@ -1,12 +1,13 @@
 import React from 'react'
 import './HeroSection.css';
 import Footer from '../Footer/Footer';
-import nature2 from "../../assets/nature2.jpg"
-import see from "../../assets/see.jpg"
-import travel from "../../assets/travel.jpg"
-import cat from "../../assets/catalina.jpg"
-import finance from "../../assets/bank.jpg"
-import work from "../../assets/work.jpg"
+// import nature2 from "../../assets/nature2.jpg";
+import see from "../../assets/see.jpg";
+import travel from "../../assets/travel.jpg";
+import cat from "../../assets/catalina.jpg";
+import finance from "../../assets/bank.jpg";
+import work from "../../assets/work.jpg";
+// import bg from "../../assets/bg2.jpg";
 
 
 function HeroSection() {
@@ -57,28 +58,27 @@ function HeroSection() {
             </div>
             <div className="section3">
                 <div className="section3-container">
-                <div className="line">
+                    <div className="line">
                     </div>
                     <div className="interests">INTERESTS</div>
                 </div>
                 <div className="row-p">
-                <div className="column">
-                    <img className="pp" src={cat} alt="CAT"></img>
-                    <span className="img-title">ME</span>
+                    <div className="column">
+                        <img className="pp" src={cat} alt="CAT"></img>
+                        <span className="img-title">ME</span>
                     </div>
                     <div className="column">
-                    <img className="pp" src={travel} alt="CAT"></img>
-                    <span className="img-title">TRAVEL</span>
+                        <img className="pp" src={travel} alt="CAT"></img>
+                        <span className="img-title">TRAVEL</span>
                     </div>
                     <div className="column">
-                    <img className="pp" src={finance} alt="CAT"></img>
-                    <span className="img-title">FINANCE</span>
+                        <img className="pp" src={finance} alt="CAT"></img>
+                        <span className="img-title">FINANCE</span>
                     </div>
                     <div className="column">
-                    <img className="pp" src={work} alt="CAT"></img>
-                    <span className="img-title">WORK</span>
+                        <img className="pp" src={work} alt="CAT"></img>
+                        <span className="img-title">WORK</span>
                     </div>
-            
                 </div>
             </div>
             <div className="section4">
