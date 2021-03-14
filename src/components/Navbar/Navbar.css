@@ -43,9 +43,13 @@
     padding: 10px 5px 5px 5px;  
 }
 
-.img {
+.logo {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+.img {
     height: 80%;
     transition: .5s;
     border-radius: 50%;
