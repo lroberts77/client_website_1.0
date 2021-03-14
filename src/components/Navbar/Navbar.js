@@ -5,13 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
-  // const [navbar, setNavbar] = useState(false)
-
-  // const changeBG = () => {
-  //   console.log(window.scrollY);
-  // }
-
-  // window.addEventListener('scroll', changeBG);
 
     const [navbar, setnavbar] = useState("navbar");
     
