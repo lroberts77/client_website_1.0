@@ -28,6 +28,7 @@ function Navbar() {
 
   return (
       <nav className={navbar}>
+          <input id="nav-toggle" type="checkbox" />
           <div className="logo">
               <img className="img" src={nature} alt="logo" />
               <h1 className="owner">by Catalina Balan</h1>

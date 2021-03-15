@@ -93,4 +93,22 @@
     transition: .5s;
 }
 
+#nav-toggle {
+    position: absolute;
+}
 
+nav .icon-burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+nav .icon-burger .line {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 3px;
+}
