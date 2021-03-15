@@ -43,6 +43,11 @@ function Navbar() {
               <li><a href="" className="youtube"><FontAwesomeIcon icon={faYoutube} size="2x" /></a></li>
               <li><a href="" className="facebook"><FontAwesomeIcon icon={faFacebook} size="2x" /></a></li>
           </ul>
+          <label for="nav-toggle" className="icon-burger">
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
+        </label>
       </nav>
   )
 }

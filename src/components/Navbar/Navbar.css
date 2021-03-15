@@ -10,6 +10,7 @@
     transition: .5s;    
     display: flex;
     justify-content: space-between;
+    background-color: rebeccapurple;
 }
 
 .navbar-black {

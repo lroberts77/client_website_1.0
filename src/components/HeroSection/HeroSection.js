@@ -1,7 +1,7 @@
 import React from 'react'
 import './HeroSection.css';
 import Footer from '../Footer/Footer';
-// import nature2 from "../../assets/nature2.jpg";
+import nature2 from "../../assets/nature2.jpg";
 import see from "../../assets/see.jpg";
 import travel from "../../assets/travel.jpg";
 import cat from "../../assets/catalina.jpg";
@@ -13,7 +13,7 @@ import work from "../../assets/work.jpg";
 function HeroSection() {
     return (
         <div className="hero-container">
-            <div className="section1">
+            {/* <div className="section1">
                 <div className="about-container">
                     <h1 className="site-title">
                         Experiment Growth
@@ -47,9 +47,9 @@ function HeroSection() {
                             <p>
                                 dfgsagfkdsgfldsgfdlsagfldasghfldsgfhladsgfl
                             </p>
-                            {/* <p>
+                            <p>
                                 dsafgawlgfodsfghdsfgahdlsfghogfhdslgfhl
-                            </p> */}
+                            </p>
                             <button>More about me</button><span> </span>
                             <button>More about me</button>
                         </div>
@@ -80,11 +80,11 @@ function HeroSection() {
                         <span className="img-title">WORK</span>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="section4">
                 
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }
