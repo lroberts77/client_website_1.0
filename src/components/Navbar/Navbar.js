@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import "./Navbar.css";
-import nature from "../../assets/nature.jpg"
+import nature from "../../assets/planet-earth.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
