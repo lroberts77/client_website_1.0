@@ -34,11 +34,11 @@
     transition: .5s;
 }
 
-.navbar-black .nav-ul li a {
+.navbar-black .nav-links li a {
     color: chartreuse;
 }
 
-.navbar-black .ul-links li a svg {
+.navbar-black {
     height: 25px;
     transition: .5s;
     padding: 10px 5px 5px 5px;  
@@ -65,14 +65,20 @@
     font-weight: lighter;
 }
 
-.nav-ul, .ul-links {
+.nav-links, .media-links {
     margin: 0;
     padding: 0;
     display: flex;
     list-style: none;
 }
 
-.nav-ul li a {
+.navbar-black .media-links li a svg {
+    height: 25px;
+    transition: .5s;
+    padding: 10px 5px 5px 5px;  
+}
+
+.nav-links li a {
     line-height: 60px;
     color: white;
     padding: 5px 20px;
@@ -81,12 +87,12 @@
     font-size: 1.5vw;
 }
 
-.nav-ul li a:hover {
+.nav-links li a:hover {
     color: white;
     background: chartreuse;
 }
 
-.ul-links li a svg {
+.media-links li a svg {
     padding: 5px 5px 5px 10px;   
     transform: translateY(20%);
     color: white;
@@ -95,6 +101,7 @@
 
 #nav-toggle {
     position: absolute;
+    display: none;
 }
 
 nav .icon-burger {
@@ -112,3 +119,75 @@ nav .icon-burger .line {
     margin: 5px;
     border-radius: 3px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .media-links {
+        display: none;
+    }
+
+    .img {
+        height: 70%;
+    }
+
+    nav .nav-links {
+        float: none;
+        position: fixed;
+        z-index: 10;
+        left: 0;
+        right: 0;
+        top: 80px;
+        bottom: 100%;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgba(0,0,0,.8);
+        overflow: hidden;
+        box-sizing: border-box;
+        transition: all .5s ease-in-out;
+    }
+
+    nav .nav-links a {
+        font-size: 24px !important;
+    }
+
+    nav :checked ~ .nav-links {
+        bottom: 0;
+    }
+
+    nav .icon-burger {
+        display: block;
+        transition: all .5s ease-in-out;
+        transition: transform .5s;
+    }
+
+    nav .icon-burger .line:nth-child(1) {
+        transition: transform .5s;
+    }
+
+    nav .icon-burger .line:nth-child(3) {
+        transition: transform .5s;
+    }
+
+    nav .icon-burger .line:nth-child(2) {
+        transition: transform .5s;
+    }
+
+    nav :checked ~ .icon-burger .line:nth-child(1) {
+        transform: translateY(10px) rotate(225deg);
+        transition: transform .5s;
+    }
+
+    nav :checked ~ .icon-burger .line:nth-child(3) {
+        transform: translateY(-10px) rotate(-225deg);
+        transition: transform .5s;
+    }
+
+    nav :checked ~ .icon-burger .line:nth-child(2) {
+        opacity: 0;
+        transition: transform .5s;
+    }
+}
+
+  

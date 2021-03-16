@@ -33,13 +33,13 @@ function Navbar() {
               <img className="img" src={nature} alt="logo" />
               <h1 className="owner">by Catalina Balan</h1>
           </div>
-          <ul className="nav-ul">
+          <ul className="nav-links">
               <li><a href="">HOME</a></li>
               <li><a href="">ABOUT</a></li>
               <li><a href="">SERVICES</a></li>
               <li><a href="">CONTACT</a></li>
           </ul>
-          <ul className="ul-links">
+          <ul className="media-links">
               <li><a href="" className="instagram"><FontAwesomeIcon icon={faInstagram} size="2x" /></a></li>
               <li><a href="" className="youtube"><FontAwesomeIcon icon={faYoutube} size="2x" /></a></li>
               <li><a href="" className="facebook"><FontAwesomeIcon icon={faFacebook} size="2x" /></a></li>
