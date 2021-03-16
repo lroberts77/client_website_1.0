@@ -13,7 +13,8 @@ import work from "../../assets/work.jpg";
 function HeroSection() {
     return (
         <div className="hero-container">
-            {/* <div className="section1">
+            <div className="section1">
+                <div className="banner-bg"/>
                 <div className="about-container">
                     <h1 className="site-title">
                         Experiment Growth
@@ -23,7 +24,8 @@ function HeroSection() {
                     </p>
                 </div>
             </div>
-            <div className="section2">
+            <div className="section2"></div>
+            {/* <div className="section2">
                 <div className="section2-container">
                     <div className="line">
                     </div>
@@ -55,8 +57,8 @@ function HeroSection() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="section3">
+            </div> */}
+            {/* <div className="section3">
                 <div className="section3-container">
                     <div className="line">
                     </div>

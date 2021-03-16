@@ -10,7 +10,7 @@
     transition: .5s;    
     display: flex;
     justify-content: space-between;
-    background-color: rebeccapurple;
+    background-color: rgba(0,0,0,.6);
 }
 
 .navbar-black {
@@ -20,7 +20,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px;
+    height: 80px !important;
     padding: 10px 20px;
     box-sizing: border-box;
     transition: .5s;    
@@ -142,7 +142,7 @@ nav .icon-burger .line {
         height: auto;
         flex-direction: column;
         justify-content: space-evenly;
-        background-color: rgba(0,0,0,.8);
+        background-color: rgba(0,0,0,.9);
         overflow: hidden;
         box-sizing: border-box;
         transition: all .5s ease-in-out;
