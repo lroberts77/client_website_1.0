@@ -121,6 +121,24 @@ nav .icon-burger .line {
 
 @media screen and (max-width: 768px) {
 
+    .navbar-black .img{
+        padding-top: 8px;
+        height: 40px;
+        margin-bottom: -25px;
+        transition: .5s;
+    }
+
+    .navbar-black .owner {
+        font-size: 11px;
+        padding-left: 10px;
+        color: chartreuse;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    .navbar-black .line {
+        background-color: chartreuse !important;
+    }
+
     .media-links {
         display: none;
     }

@@ -48,8 +48,10 @@ function HeroSection() {
                             <p>
                                 dfgsagfkdsgf ldsgfd lsagf ldasgh fldsgf ladsgfl
                             </p>
-                            <button>More about me</button><span> </span>
-                            <button>More about me</button>
+                            <div className="btn">
+                            <button className="btn-me">More about me</button><span> </span>
+                            <button className="btn-blog">Read my blog</button>
+                            </div>
                         </div>
                     </div>
                 </div>
