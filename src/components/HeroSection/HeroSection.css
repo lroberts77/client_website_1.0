@@ -315,7 +315,7 @@
         width: 100%;
         /* height: 50vh; */
         background-color: white;
-        padding: 5px 15px;
+        padding: 5px 40px;
         text-align: center;
         /* margin: 0 auto; */
     }
@@ -326,7 +326,7 @@
     }
 
     .interests {
-        width: 31%;
+        width: 38%;
         position: relative;
         z-index: 0;
         color: black;
@@ -339,7 +339,7 @@
 
     .pp {
         align-self: center;
-        width: 70%;
+        width: 80%;
         height: 180px;
         border-bottom: chartreuse 5px solid;
         transition: all .3s ease;
