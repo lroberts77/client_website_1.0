@@ -56,7 +56,7 @@ function HeroSection() {
                     </div>
                 </div>
             </div>
-            {/* <div className="section3">
+            <div className="section3">
                 <div className="section3-container">
                     <div className="line">
                     </div>
@@ -80,7 +80,7 @@ function HeroSection() {
                         <span className="img-title">WORK</span>
                     </div>
                 </div>
-            </div> */}
+            </div>
             <div className="section4">
                 
             </div>
