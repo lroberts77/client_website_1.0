@@ -16,7 +16,7 @@
 .navbar-black {
     z-index: 1;
     background-color: rgba(0,0,0,.8);
-    position: fixed;
+    position: fixed !important;
     top: 0;
     left: 0;
     width: 100%;
@@ -108,8 +108,7 @@ nav .icon-burger {
     display: none;
     position: absolute;
     right: 5%;
-    align-items: center;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
 }
 
 nav .icon-burger .line {
@@ -154,6 +153,10 @@ nav .icon-burger .line {
 
     nav :checked ~ .nav-links {
         bottom: 0;
+        padding-bottom: 20%;
+        /* height: 100vh; */
+        /* transition: all .5s ease-in-out; / */
+        /* overflow-x: hidden; */
     }
 
     nav .icon-burger {

@@ -24,8 +24,7 @@ function HeroSection() {
                     </p>
                 </div>
             </div>
-            <div className="section2"></div>
-            {/* <div className="section2">
+            <div className="section2">
                 <div className="section2-container">
                     <div className="line">
                     </div>
@@ -36,7 +35,7 @@ function HeroSection() {
                             <img className="ppic" src={see} alt="CAT"></img>
                             </div>
                         </div>
-                        <div className="column">
+                        <div className="column-p">
                             <p>
                                 Hi! I'm Catalina. After years of traveling the world non-stop, I’m now enjoying my life at a new home in Kent, while still pursuing my other passions and hobbies as well.
                             </p>
@@ -47,17 +46,14 @@ function HeroSection() {
                             It’s my mission to teach YOU how can also you turn YOUR dreams, whatever they are, into reality.
                             </p>
                             <p>
-                                dfgsagfkdsgfldsgfdlsagfldasghfldsgfhladsgfl
-                            </p>
-                            <p>
-                                dsafgawlgfodsfghdsfgahdlsfghogfhdslgfhl
+                                dfgsagfkdsgf ldsgfd lsagf ldasgh fldsgf ladsgfl
                             </p>
                             <button>More about me</button><span> </span>
                             <button>More about me</button>
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
             {/* <div className="section3">
                 <div className="section3-container">
                     <div className="line">

@@ -9,17 +9,18 @@ function Navbar() {
     const [navbar, setnavbar] = useState("navbar");
     
     const listenScrollEvent = () => {
+
       
-      if (window.scrollY < 73) {
+      if (window.innerWidth > 768 && window.scrollY < 73 || window.innerWidth < 768 && window.scrollY < 60) {
         return setnavbar("navbar")
-      } else if (window.scrollY > 70) {
+      } else if (window.innerWidth > 768 && window.scrollY > 70  || window.innerWidth < 768 && window.scrollY > 15) {
         return setnavbar("navbar-black")
       } 
     }
     
     useEffect(() => {
       window.addEventListener('scroll', listenScrollEvent);
-    
+    console.log(window.scrollY);
       return () =>
         window.removeEventListener('scroll', listenScrollEvent);
     }, []);
