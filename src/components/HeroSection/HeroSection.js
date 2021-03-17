@@ -84,7 +84,7 @@ function HeroSection() {
             <div className="section4">
                 
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
