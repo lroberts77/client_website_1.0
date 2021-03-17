@@ -107,6 +107,10 @@
     text-align: start;
 }
 
+.column-s3-pic {
+    padding: 30px 0px;
+}
+
 .pic {
     position: relative;
     width: 350px;
@@ -161,9 +165,15 @@
     padding-top: 20px;
 }
 
+.row-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .pp {
-    width: 100%;
-    height: 250px;
+    width: 250px;
+    height: 300px;
     border-bottom: chartreuse 5px solid;
     transition: all .3s ease;
     box-shadow: 5px 5px 10px black;
@@ -236,7 +246,7 @@
         padding: 10px 40px;
     }
 
-    .row {
+    .row, .row-p {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -250,6 +260,12 @@
         padding-bottom: 20px;
         justify-content: space-around;
     }
+
+    /* .column-s3-pic {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    } */
 
     .column-p {
         display: flex;
