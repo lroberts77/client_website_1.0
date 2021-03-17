@@ -203,14 +203,16 @@
         position: absolute;
         box-sizing: border-box;
         align-items: center;
+        /* justify-content: space-around; */
         top: 0;
         height: 45vh;
-        padding: 20px 50px;
+        padding: 110px 50px 20px 50px;
     }
 
     .site-title {
         font-size: 16px;
-        padding-top: 100px;
+        margin-top: 0px;
+        /* padding-top: 100px; */
     }
 
     .site-about {
