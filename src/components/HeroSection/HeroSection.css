@@ -210,14 +210,16 @@
     }
 
     .site-title {
-        font-size: 16px;
+        font-size: 17px;
         margin-top: 0px;
+        letter-spacing: 1px;
         /* padding-top: 100px; */
     }
 
     .site-about {
-        font-size: 12px;
-        width: 80%;
+        letter-spacing: .7px;
+        font-size: 13px;
+        width: 90%;
     }
 
     .line {
