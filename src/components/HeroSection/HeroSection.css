@@ -424,4 +424,35 @@
         transition: all .5s ease-in-out;
         outline: none;
     }
+
+    .row-p {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        /* padding: 10px 0px 0px 0px; */
+    }
+
+    .column {
+        padding: 25px 0px 20px 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .section3 {
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: white;
+        padding: 5px 150px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .section3-container {
+        position: relative;
+        padding: 0 !important;
+        max-width: 100%;
+    }
+
 }
