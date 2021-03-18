@@ -28,6 +28,18 @@
     justify-content: space-between;
 }
 
+.navbar-black .svg-inline--fa {
+    color: chartreuse;
+    height: 25px;
+    transition: .5s;
+    padding: 10px 5px 5px 5px;  
+}
+
+.navbar-black .svg-inline--fa:hover {
+    color: white;
+    transition: .5s ease-in-out;
+}
+
 .navbar-black .img{
     height: 50px;
     margin-bottom: -5px;
@@ -42,6 +54,12 @@
     height: 25px;
     transition: .5s;
     padding: 10px 5px 5px 5px;  
+}
+
+.navbar-black .owner {
+    color: chartreuse;
+    text-shadow: 5px 5px 10px black;
+    transition: all .5s ease-in-out;
 }
 
 .logo {
@@ -72,12 +90,6 @@
     list-style: none;
 }
 
-.navbar-black .media-links li a svg {
-    height: 25px;
-    transition: .5s;
-    padding: 10px 5px 5px 5px;  
-}
-
 .nav-links li a {
     line-height: 60px;
     color: white;
@@ -97,6 +109,11 @@
     transform: translateY(20%);
     color: white;
     transition: .5s;
+}
+
+.svg-inline--fa:hover {
+    color: chartreuse;
+    transition: .5s ease-in-out;
 }
 
 #nav-toggle {
