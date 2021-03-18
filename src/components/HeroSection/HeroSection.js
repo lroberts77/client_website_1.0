@@ -45,9 +45,6 @@ function HeroSection() {
                             <p>
                             It’s my mission to teach YOU how can also you turn YOUR dreams, whatever they are, into reality.
                             </p>
-                            <p>
-                                dfgsagfkdsgf ldsgfd lsagf ldasgh fldsgf ladsgfl
-                            </p>
                             <div className="btn">
                             <button className="btn-me">More about me</button><span> </span>
                             <button className="btn-blog">Read my blog</button>
