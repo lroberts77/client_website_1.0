@@ -455,4 +455,20 @@
         max-width: 100%;
     }
 
+    .line {
+        top: 49px;
+    }
+
+    .interests {
+        width: 10%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about {
+        width: 8%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
 }
