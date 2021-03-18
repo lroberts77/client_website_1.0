@@ -1,13 +1,14 @@
 import React from 'react'
 import "./Footer.css";
 import nature from "../../assets/nature.jpg"
+import rose from "../../assets/rose.jpg"
 
 function Footer() {
     return (
         <div className="footer">
             <div className="footer-container">
                 <div className="footer-logo">
-                <img className="img" src={nature} alt="logo" />
+                <img className="img-left" src={nature} alt="logo" />
                 </div>
                 <div className="quick-links">
                     <ul className="footer-ul">
@@ -18,7 +19,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="shop-link">
-                    <img className="img" src={nature} alt="logo" />
+                    <img className="img-right" src={rose} alt="logo" />
                 </div>
             </div>
             <div>
