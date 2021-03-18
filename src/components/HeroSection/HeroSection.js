@@ -30,7 +30,7 @@ function HeroSection() {
                     </div>
                     <div className="about">ABOUT</div>
                     <div className="row">
-                        <div className="column">
+                        <div className="column-p">
                             <div className="about-pic">
                             <img className="about-ppic" src={see} alt="CAT"></img>
                             </div>

@@ -265,16 +265,12 @@
         justify-content: space-around;
     }
 
-    .column-s3-pic {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-    }
-
     .column-p {
         display: flex;
-        flex-direction: column;
         width: 80%;
+        flex-direction: column;
+        padding-bottom: 20px;
+        align-items: center;
     }
 
     .about-pic {
@@ -303,15 +299,19 @@
 
     .btn {
         display: flex;
+        justify-content: space-around;
         gap: 6%;
         font-size: 12px;
+        margin-bottom: -20px;
     }
 
     .btn-me, .btn-blog {
-        flex: 1;
+        display: flex;
+        justify-content: center;
+        width: 120px;
+        padding: 5px;
         box-shadow: 5px 5px 7px black;
         border-radius: 6px;
-        padding: 5px;
         border: 1px solid #4CAF50;
         background-color: white;
     }
