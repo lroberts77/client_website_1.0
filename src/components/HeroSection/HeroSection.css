@@ -111,7 +111,7 @@
     padding: 30px 0px;
 }
 
-.pic {
+.about-pic {
     position: relative;
     width: 350px;
     height: 250px;
@@ -122,7 +122,7 @@
     transition: all 0.3s;
 }
 
-.ppic {
+.about-ppic {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -132,7 +132,7 @@
     transition: all 0.3s;
 }
 
-.ppic:hover {
+.about-ppic:hover {
     transform: scale(1.2);
     overflow: hidden;
     transition: all 0.3s;
@@ -265,11 +265,11 @@
         justify-content: space-around;
     }
 
-    /* .column-s3-pic {
+    .column-s3-pic {
         display: flex;
         flex-direction: column;
         width: 80%;
-    } */
+    }
 
     .column-p {
         display: flex;
@@ -277,28 +277,25 @@
         width: 80%;
     }
 
-    .pic {
+    .about-pic {
         position: relative;
-        width: 280px;
-        height: 230px; 
-        box-shadow: 5px 5px 10px black;
-        /* box-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px black; */
-        box-shadow: 5px 5px 10px black;
-        overflow: hidden;
-        /* transition: all 0.3s; */
+        width: 270px;
+        height: 190px; 
+        /* box-shadow: 5px 5px 10px black; */
+        box-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px black;
+        /* overflow: hidden; */
+        transition: all 0.3s;
     }
     
-    .ppic {
+    .about-ppic {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-fit: fill;
-        box-shadow: 5px 5px 10px black;
         display: block;
         transition: all 0.3s;
     }
     
-    .ppic:hover {
+    .about-ppic:hover {
         transform: scale(1.2);
         overflow: hidden;
         transition: all 0.3s;
@@ -306,14 +303,12 @@
 
     .btn {
         display: flex;
-        /* flex-direction: row; */
         gap: 6%;
         font-size: 12px;
-        /* padding: 5px; */
-        flex-basis: 50%;
     }
 
     .btn-me, .btn-blog {
+        flex: 1;
         box-shadow: 5px 5px 7px black;
         border-radius: 6px;
         padding: 5px;
@@ -333,11 +328,9 @@
         position: relative;
         box-sizing: border-box;
         width: 100%;
-        /* height: 50vh; */
         background-color: white;
         padding: 5px 40px;
-        text-align: center;
-        /* margin: 0 auto; */
+        /* text-align: center; */
     }
 
     .section3-container {
@@ -358,9 +351,11 @@
     }
 
     .pp {
+        text-align: center;
         align-self: center;
         width: 80%;
         height: 180px;
+        object-fit: cover;
         border-bottom: chartreuse 5px solid;
         transition: all .3s ease;
         box-shadow: 5px 5px 10px black;

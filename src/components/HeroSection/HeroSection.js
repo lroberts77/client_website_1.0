@@ -31,8 +31,8 @@ function HeroSection() {
                     <div className="about">ABOUT</div>
                     <div className="row">
                         <div className="column">
-                            <div className="pic">
-                            <img className="ppic" src={see} alt="CAT"></img>
+                            <div className="about-pic">
+                            <img className="about-ppic" src={see} alt="CAT"></img>
                             </div>
                         </div>
                         <div className="column-p">
