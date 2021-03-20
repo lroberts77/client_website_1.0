@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import "./Navbar.css";
+import $ from 'jquery'; 
 import nature from "../../assets/planet-earth.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -7,13 +8,20 @@ import { faYoutube, faFacebook, faInstagram } from "@fortawesome/free-brands-svg
 function Navbar() {
 
     const [navbar, setnavbar] = useState("navbar");
+
+    $('input[id="nav-toggle"]').on('change',function(e) {
+      if ($(this).prop('checked')) {
+          $('body').css('overflow', 'hidden');
+      } else {
+          $('body').css('overflow', 'auto');
+      };
+      });      
     
     const listenScrollEvent = () => {
-
       
-      if (window.innerWidth > 768 && window.scrollY < 73 || window.innerWidth < 768 && window.scrollY < 60) {
+      if (window.scrollY < 73) {
         return setnavbar("navbar")
-      } else if (window.innerWidth > 768 && window.scrollY > 70  || window.innerWidth < 768 && window.scrollY > 15) {
+      } else if (window.scrollY > 70) {
         return setnavbar("navbar-black")
       } 
     }
@@ -24,8 +32,6 @@ function Navbar() {
       return () =>
         window.removeEventListener('scroll', listenScrollEvent);
     }, []);
-
-
 
   return (
       <nav className={navbar}>
