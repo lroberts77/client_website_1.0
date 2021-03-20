@@ -15,7 +15,7 @@ function Navbar() {
       } else {
           $('body').css('overflow', 'auto');
       };
-      });      
+      });   
     
     const listenScrollEvent = () => {
       
@@ -31,7 +31,7 @@ function Navbar() {
     console.log(window.scrollY);
       return () =>
         window.removeEventListener('scroll', listenScrollEvent);
-    }, []);
+    }, []);   
 
   return (
       <nav className={navbar}>
