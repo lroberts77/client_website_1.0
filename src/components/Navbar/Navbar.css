@@ -63,11 +63,16 @@
     transition: all .5s ease-in-out;
 }
 
+.nav-reactlink {
+    text-decoration: none;
+}
+
 .logo {
     display: flex;
     flex-direction: column;
     height: 100%;
     align-items: center;
+    text-decoration: none;
 }
 .img {
     height: 80%;

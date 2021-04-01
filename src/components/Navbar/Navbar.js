@@ -42,16 +42,16 @@ function Navbar() {
               <h1 className="owner">by Catalina Balan</h1>
           </Link>
           <ul className="nav-links">
-            <Link to="/">
+            <Link to="/" className="nav-reactlink">
               <li><a href="">HOME</a></li>
             </Link>
-            <Link to="/about">
+            <Link to="/about" className="nav-reactlink">
               <li><a href="">ABOUT</a></li>
             </Link>
-            <Link to="/services">
+            <Link to="/services" className="nav-reactlink">
               <li><a href="">SERVICES</a></li>
             </Link>
-            <Link to="/contact">
+            <Link to="/contact" className="nav-reactlink">
               <li><a href="">CONTACT</a></li>
             </Link>
           </ul>
