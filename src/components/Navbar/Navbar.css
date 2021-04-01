@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     background-color: rgba(0,0,0,.6);
+    transition: all .5s ease-in-out; 
 }
 
 .navbar-black {
@@ -23,7 +24,7 @@
     height: 80px !important;
     padding: 10px 20px;
     box-sizing: border-box;
-    transition: .5s;    
+    transition: all .5s ease-in-out;    
     display: flex;
     justify-content: space-between;
 }
@@ -43,7 +44,7 @@
 .navbar-black .img{
     height: 50px;
     margin-bottom: -5px;
-    transition: .5s;
+    transition: all .5s ease-in-out;
 }
 
 .navbar-black .nav-links li a {
@@ -70,7 +71,7 @@
 }
 .img {
     height: 80%;
-    transition: .5s;
+    transition: all .5s ease-in-out;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -81,6 +82,7 @@
     color: white;
     font-size: 9px;
     font-weight: lighter;
+    transition: all .5s ease-in-out;
 }
 
 .nav-links, .media-links {
@@ -142,7 +144,7 @@ nav .icon-burger .line {
         padding-top: 8px;
         height: 40px;
         margin-bottom: -25px;
-        transition: .5s;
+        transition: all .5s ease-in-out;
     }
 
     .navbar-black .owner {
@@ -150,6 +152,7 @@ nav .icon-burger .line {
         padding-left: 10px;
         color: chartreuse;
         text-shadow: 5px 5px 10px black;
+        transition: all .5s ease-in-out;
     }
 
     .navbar-black .line {

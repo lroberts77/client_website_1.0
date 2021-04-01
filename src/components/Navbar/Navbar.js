@@ -10,11 +10,11 @@ function Navbar() {
     const [navbar, setnavbar] = useState("navbar");
 
     $('input[id="nav-toggle"]').on('change',function(e) {
-      if ($(this).prop('checked')) {
-          $('body').css('overflow', 'hidden');
-      } else {
-          $('body').css('overflow', 'auto');
-      };
+        if ($(this).prop('checked')) {
+            $('body').css('overflow', 'hidden');
+        } else {
+            $('body').css('overflow', 'auto');
+        };
       });   
     
     const listenScrollEvent = () => {
@@ -28,7 +28,7 @@ function Navbar() {
     
     useEffect(() => {
       window.addEventListener('scroll', listenScrollEvent);
-    console.log(window.scrollY);
+    // console.log(window.scrollY);
       return () =>
         window.removeEventListener('scroll', listenScrollEvent);
     }, []);   
