@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 import $ from 'jquery'; 
 import nature from "../../assets/planet-earth.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -36,15 +37,23 @@ function Navbar() {
   return (
       <nav className={navbar}>
           <input id="nav-toggle" type="checkbox" />
-          <div className="logo">
+          <Link to="/" className="logo">
               <img className="img" src={nature} alt="logo" />
               <h1 className="owner">by Catalina Balan</h1>
-          </div>
+          </Link>
           <ul className="nav-links">
+            <Link to="/">
               <li><a href="">HOME</a></li>
+            </Link>
+            <Link to="/about">
               <li><a href="">ABOUT</a></li>
+            </Link>
+            <Link to="/services">
               <li><a href="">SERVICES</a></li>
+            </Link>
+            <Link to="/contact">
               <li><a href="">CONTACT</a></li>
+            </Link>
           </ul>
           <ul className="media-links">
               <li><a href="" className="instagram"><FontAwesomeIcon icon={faInstagram} size="2x" /></a></li>
