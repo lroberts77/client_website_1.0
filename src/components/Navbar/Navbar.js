@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 // import $ from 'jquery'; 
-import nature from "../../assets/planet-earth.svg"
+import nature from "../../assets/planet-earth.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
@@ -64,7 +64,7 @@ function Navbar() {
               <li><a href="" className="youtube"><FontAwesomeIcon icon={faYoutube} size="2x" /></a></li>
               <li><a href="" className="facebook"><FontAwesomeIcon icon={faFacebook} size="2x" /></a></li>
           </ul>
-          <label for="nav-toggle" className="icon-burger">
+          <label className={click ? "icon-burger-x" : "icon-burger"} onClick={handleClick}>
             <div className="line"></div>
             <div className="line"></div>
             <div className="line"></div>

@@ -143,6 +143,21 @@ nav .icon-burger .line {
     border-radius: 3px;
 }
 
+nav .icon-burger-x {
+    display: none;
+    position: absolute;
+    right: 5%;
+    transform: translateY(-40%);
+}
+
+nav .icon-burger-x .line {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 3px;
+}
+
 @media screen and (max-width: 768px) {
 
     .navbar-black .img{
@@ -221,17 +236,24 @@ nav .icon-burger .line {
         transition: transform .5s;
     }
 
-    nav :checked ~ .icon-burger .line:nth-child(1) {
+    nav .icon-burger-x {
+        display: block;
+        transition: all .5s ease-in-out;
+        transition: transform .5s;
+    }
+
+
+    nav .icon-burger-x .line:nth-child(1) {
         transform: translateY(10px) rotate(225deg);
         transition: transform .5s;
     }
 
-    nav :checked ~ .icon-burger .line:nth-child(3) {
+    nav .icon-burger-x .line:nth-child(3) {
         transform: translateY(-10px) rotate(-225deg);
         transition: transform .5s;
     }
 
-    nav :checked ~ .icon-burger .line:nth-child(2) {
+    nav .icon-burger-x .line:nth-child(2) {
         opacity: 0;
         transition: transform .5s;
     }
