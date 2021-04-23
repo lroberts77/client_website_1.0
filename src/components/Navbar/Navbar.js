@@ -52,7 +52,7 @@ function Navbar() {
             <Link to="/about" className="nav-reactlink" onClick={closeMobileMenu}>
               <li for="nav-toggle">ABOUT</li>
             </Link>
-            <Link to="/services" className="nav-reactlink">
+            <Link to="/services" className="nav-reactlink" onClick={closeMobileMenu}>
               <li for="nav-toggle">SERVICES</li>
             </Link>
             <Link to="/contact" className="nav-reactlink">
