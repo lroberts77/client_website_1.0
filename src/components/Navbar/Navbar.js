@@ -34,18 +34,18 @@ function Navbar() {
               <img className="img" src={nature} alt="logo" />
               <h1 className="owner">by Catalina Balan</h1>
           </Link>
-          <ul className="nav-links">
+          <ul className={click ? "nav-links-open" : "nav-links"}>
             <Link to="/" className="nav-reactlink" onClick={closeMobileMenu}>
-              <li for="nav-toggle">HOME</li>
+              <li>HOME</li>
             </Link>
             <Link to="/about" className="nav-reactlink" onClick={closeMobileMenu}>
-              <li for="nav-toggle">ABOUT</li>
+              <li>ABOUT</li>
             </Link>
             <Link to="/services" className="nav-reactlink" onClick={closeMobileMenu}>
-              <li for="nav-toggle">SERVICES</li>
+              <li>SERVICES</li>
             </Link>
             <Link to="/contact" className="nav-reactlink" onClick={closeMobileMenu}>
-              <li for="nav-toggle">CONTACT</li>
+              <li>CONTACT</li>
             </Link>
           </ul>
           <ul className="media-links">

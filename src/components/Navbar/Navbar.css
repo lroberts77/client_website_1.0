@@ -47,7 +47,7 @@
     transition: all .5s ease-in-out;
 }
 
-.navbar-black .nav-links li a {
+.navbar-black .nav-reactlink li {
     color: chartreuse;
 }
 
@@ -97,7 +97,7 @@
     list-style: none;
 }
 
-.nav-links li a {
+.nav-links li, .nav-links-open li {
     line-height: 60px;
     color: white;
     padding: 5px 20px;
@@ -123,14 +123,14 @@
     transition: .5s ease-in-out;
 }
 
-nav .icon-burger {
+nav .icon-burger, nav .icon-burger-x {
     display: none;
     position: absolute;
     right: 5%;
     transform: translateY(-40%);
 }
 
-nav .icon-burger .line {
+nav .icon-burger .line, nav .icon-burger-x .line {
     width: 30px;
     height: 5px;
     background-color: white;
@@ -138,20 +138,20 @@ nav .icon-burger .line {
     border-radius: 3px;
 }
 
-nav .icon-burger-x {
+/* nav .icon-burger-x {
     display: none;
     position: absolute;
     right: 5%;
     transform: translateY(-40%);
-}
+} */
 
-nav .icon-burger-x .line {
+/* nav .icon-burger-x .line {
     width: 30px;
     height: 5px;
     background-color: white;
     margin: 5px;
     border-radius: 3px;
-}
+} */
 
 @media screen and (max-width: 768px) {
 
@@ -201,15 +201,32 @@ nav .icon-burger-x .line {
         transition: all .5s ease-in-out;
     }
 
-    nav .nav-links a {
-        font-size: 24px !important;
+    nav .nav-links li, nav .nav-links-open li {
+        font-size: 20px !important;
+        list-style: none;
     }
 
-    nav :checked ~ .nav-links {
+    nav .nav-links-open li {
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+
+    nav .nav-links-open {
+        float: none;
+        position: fixed;
+        z-index: 10;
+        left: 0;
+        right: 0;
+        top: 64px;
         bottom: 0;
-        padding-bottom: 20%;
+        width: auto;
+        height: 100vh;
+        /* flex-direction: column; */
+        /* justify-content: space-evenly; */
+        background-color: rgba(0,0,0,.9);
+        overflow: hidden;
         opacity: 1;
-        /* height: 100vh; */
+        box-sizing: border-box;
         transition: all .5s ease-in-out;
     }
 
