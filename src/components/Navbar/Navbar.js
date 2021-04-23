@@ -43,16 +43,16 @@ function Navbar() {
           </Link>
           <ul className="nav-links">
             <Link to="/" className="nav-reactlink">
-              <li><a href="">HOME</a></li>
+              <li>HOME</li>
             </Link>
             <Link to="/about" className="nav-reactlink">
-              <li><a href="">ABOUT</a></li>
+              <li>ABOUT</li>
             </Link>
             <Link to="/services" className="nav-reactlink">
-              <li><a href="">SERVICES</a></li>
+              <li>SERVICES</li>
             </Link>
             <Link to="/contact" className="nav-reactlink">
-              <li><a href="">CONTACT</a></li>
+              <li>CONTACT</li>
             </Link>
           </ul>
           <ul className="media-links">
