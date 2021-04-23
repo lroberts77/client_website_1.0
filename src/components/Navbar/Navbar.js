@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-// import $ from 'jquery'; 
 import nature from "../../assets/planet-earth.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -12,16 +11,6 @@ function Navbar() {
     const [click, setClick] = useState(false)
     const closeMobileMenu = () => setClick(false)
     const handleClick = () => setClick(!click)
-    // const [dropMenu, setdropMenu] = useState(true)
-
-    // $('input[id="nav-toggle"]').on('change',function(e) {
-    //     if ($(this).prop('checked')) {
-    //         $('body').css('overflow', 'hidden');
-    //     } else {
-    //         $('body').css('overflow', 'auto');
-    //     };
-    //   });   
-    
     const listenScrollEvent = () => {
       
       if (window.scrollY < 73) {
