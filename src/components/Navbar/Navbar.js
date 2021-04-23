@@ -45,8 +45,8 @@ function Navbar() {
               <img className="img" src={nature} alt="logo" />
               <h1 className="owner">by Catalina Balan</h1>
           </Link>
-          <ul className="nav-links" onClick>
-            <Link to="/" className="nav-reactlink">
+          <ul className="nav-links">
+            <Link to="/" className="nav-reactlink" onClick={closeMobileMenu}>
               <li for="nav-toggle">HOME</li>
             </Link>
             <Link to="/about" className="nav-reactlink">
