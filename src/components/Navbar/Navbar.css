@@ -123,11 +123,6 @@
     transition: .5s ease-in-out;
 }
 
-#nav-toggle {
-    position: absolute;
-    /* display: none; */
-}
-
 nav .icon-burger {
     display: none;
     position: absolute;
