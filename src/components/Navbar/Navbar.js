@@ -9,6 +9,7 @@ import { faYoutube, faFacebook, faInstagram } from "@fortawesome/free-brands-svg
 function Navbar() {
 
     const [navbar, setnavbar] = useState("navbar");
+    const [dropMenu, setdropMenu] = useState(true)
 
     $('input[id="nav-toggle"]').on('change',function(e) {
         if ($(this).prop('checked')) {
@@ -41,18 +42,18 @@ function Navbar() {
               <img className="img" src={nature} alt="logo" />
               <h1 className="owner">by Catalina Balan</h1>
           </Link>
-          <ul className="nav-links">
+          <ul className="nav-links" onClick>
             <Link to="/" className="nav-reactlink">
-              <li>HOME</li>
+              <li for="nav-toggle">HOME</li>
             </Link>
             <Link to="/about" className="nav-reactlink">
-              <li>ABOUT</li>
+              <li for="nav-toggle">ABOUT</li>
             </Link>
             <Link to="/services" className="nav-reactlink">
-              <li>SERVICES</li>
+              <li for="nav-toggle">SERVICES</li>
             </Link>
             <Link to="/contact" className="nav-reactlink">
-              <li>CONTACT</li>
+              <li for="nav-toggle">CONTACT</li>
             </Link>
           </ul>
           <ul className="media-links">
