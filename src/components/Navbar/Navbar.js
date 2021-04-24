@@ -8,9 +8,19 @@ import { faYoutube, faFacebook, faInstagram } from "@fortawesome/free-brands-svg
 function Navbar() {
 
     const [navbar, setnavbar] = useState("navbar");
-    const [click, setClick] = useState(false)
-    const closeMobileMenu = () => setClick(false)
-    const handleClick = () => setClick(!click)
+    const [click, setClick] = useState(false);
+    const closeMobileMenu = () => {
+      setClick(false)
+    }
+    const handleClick = () => {
+      setClick(!click);
+      scrolllock()
+    }
+
+    const scrolllock = () => {
+      click ? document.body.style.overflow = "auto" : document.body.style.overflow = "hidden"
+    }
+
     const listenScrollEvent = () => {
       
       if (window.scrollY < 73) {
@@ -29,7 +39,6 @@ function Navbar() {
 
   return (
       <nav className={navbar}>
-          {/* <input id="nav-toggle" type="checkbox" /> */}
           <Link to="/" className="logo" onClick={closeMobileMenu}>
               <img className="img" src={nature} alt="logo" />
               <h1 className="owner">by Catalina Balan</h1>

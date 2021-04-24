@@ -206,6 +206,11 @@ nav .icon-burger .line, nav .icon-burger-x .line {
         list-style: none;
     }
 
+    body.nav-links-open {
+        overflow: hidden;
+        height: 100vh;
+    }
+
     nav .nav-links-open li {
         padding-top: 38px;
         padding-bottom: 38px;
