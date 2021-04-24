@@ -10,25 +10,26 @@ function Navbar() {
     const [navbar, setnavbar] = useState("navbar");
     const [click, setClick] = useState(false);
     const closeMobileMenu = () => {
-      setClick(false)
-    }
+      setClick(false);
+      scrolllock();
+    };
+    
     const handleClick = () => {
       setClick(!click);
-      scrolllock()
-    }
+      scrolllock();
+    };
 
     const scrolllock = () => {
       click ? document.body.style.overflow = "auto" : document.body.style.overflow = "hidden"
-    }
+    };
 
     const listenScrollEvent = () => {
-      
       if (window.scrollY < 73) {
         return setnavbar("navbar")
       } else if (window.scrollY > 70) {
         return setnavbar("navbar-black")
       } 
-    }
+    };
     
     useEffect(() => {
       window.addEventListener('scroll', listenScrollEvent);
