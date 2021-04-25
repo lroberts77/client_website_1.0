@@ -29,9 +29,9 @@ function Navbar() {
 
     const listenScrollEvent = () => {
       if (window.scrollY < 73) {
-        return setnavbar("navbar")
+        setnavbar("navbar")
       } else if (window.scrollY > 70) {
-        return setnavbar("navbar-black")
+        setnavbar("navbar-black")
       } 
     };
     
