@@ -11,17 +11,21 @@ function Navbar() {
     const [click, setClick] = useState(false);
     const closeMobileMenu = () => {
       setClick(false);
-      scrolllock();
+      scrollRelease()
     };
     
     const handleClick = () => {
       setClick(!click);
-      scrolllock();
+      scrollLock();
     };
 
-    const scrolllock = () => {
+    const scrollLock = () => {
       click ? document.body.style.overflow = "auto" : document.body.style.overflow = "hidden"
     };
+
+    const scrollRelease = () => {
+      document.body.style.overflow = "auto"
+    }
 
     const listenScrollEvent = () => {
       if (window.scrollY < 73) {
