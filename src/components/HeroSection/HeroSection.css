@@ -196,7 +196,7 @@
         width: 100%;
         height: 100%;
         animation: breath 15s ease-in-out alternate infinite;
-        background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../../assets/nature2.jpg');
+        background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../../assets/mobbgsm.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
